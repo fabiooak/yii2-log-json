@@ -1,0 +1,18 @@
+{
+    "name": "fabiooak/yii2-log-json",
+    "description": "Extends the file logging changing the output to JSON format. It's a useful extension to integrate with FileBeat and ELK stack.",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Fabio Oak",
+            "email": "fabio@oakideas.com.br"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "fabiooak\\yii2\\log\\": "src/"
+        }
+    }
+}
